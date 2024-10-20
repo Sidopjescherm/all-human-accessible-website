@@ -1,0 +1,33 @@
+body{
+    font-family: Arial;
+}
+
+nav{
+    display: flex;
+    gap: 1rem;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    position: sticky;
+}
+
+main{
+
+}
+
+header{
+
+}
+
+section{
+    
+}
+
+article:first-of-type{
+    background-color: antiquewhite;
+}
+
+article{
+    background-color: bisque;
+}
