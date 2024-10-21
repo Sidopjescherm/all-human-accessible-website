@@ -1,5 +1,15 @@
 body{
     font-family: Arial;
+    li{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+    }
+}
+
+header{
+    background-image: url(give.jpeg);
 }
 
 nav{
@@ -8,20 +18,11 @@ nav{
     align-items: flex-end;
     justify-content: space-around;
     flex-wrap: wrap;
+    padding: 1em;
 
     position: sticky;
-}
 
-main{
-
-}
-
-header{
-
-}
-
-section{
-    
+    background-color: #4E5941;
 }
 
 article:first-of-type{
@@ -30,4 +31,14 @@ article:first-of-type{
 
 article{
     background-color: bisque;
+}
+
+footer{
+    background-color: #4E5941;
+    color: white;
+    display: flex;
+}
+
+li{
+
 }
