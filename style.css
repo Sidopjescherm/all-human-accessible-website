@@ -8,37 +8,200 @@ body{
     }
 }
 
-header{
-    background-image: url(give.jpeg);
-}
-
 nav{
     display: flex;
     gap: 1rem;
     align-items: flex-end;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 1em;
-
-    position: sticky;
+    width: 100%;
+     a{
+        color: white;
+     }
 
     background-color: #4E5941;
+}
+
+header{
+    height: 20rem;
+    background-image: url(give.jpeg);
+    background-position: center;
+    background-size: initial;
+    background-repeat: no-repeat;
+    text-align: center;
+
+    
+     a{
+        position: relative;
+        top: 8em;
+        background-color: aquamarine;
+     }
+}
+
+h1{
+    position: relative;
+     top: 1em;
+
+    /*hier komen de kleuren en de stijl*/
+    color: white;
+    font-size: 5em;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    gap: 1rem;
+
+    position: relative;
+    top: 2rem;
+}
+
+article{
+    background-color: bisque;
+    text-align: center;
+     time{
+        font-weight:bold;
+     }
 }
 
 article:first-of-type{
     background-color: antiquewhite;
 }
 
-article{
-    background-color: bisque;
-}
+
 
 footer{
     background-color: #4E5941;
     color: white;
-    display: flex;
+    display: grid;
+    width: 100%;
+
+    /*positioneren*/
+    position: relative;
+    top: 3rem;
 }
 
-li{
+ul{
+    display: grid;
+    gap: 3em;
+    justify-content: center;
+    grid-template-columns: 2fr 2fr 2fr;
+}
 
+/*dit is voor small en medium*/
+@media (min-width:0px) and (max-width:1024px) {
+    article{
+        grid-column-start: 2;
+    }
+}
+
+/*dit is de large sizes*/
+@media (min-width:1025px){
+    body{
+        font-family: Arial;
+        li{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+        }
+    }
+    
+    nav{
+        display: flex;
+        gap: 1rem;
+        align-items: flex-end;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 100%;
+
+        /*positioneren*/
+        z-index: 1;
+         a{
+            color: white;
+         }
+    
+        background-color: #4E5941;
+    }
+    
+    header{
+        height: 20rem;
+        background-image: url(give.jpeg);
+        background-position: center;
+        background-size: initial;
+        background-repeat: no-repeat;
+        text-align: center;
+        height: 40rem;
+
+        position: relative;
+        top: -3em;
+        z-index: 2;
+         a{
+            position: relative;
+            top: 14em;
+            background-color: aquamarine;
+         }
+    }
+    
+    h1{
+        position: relative;
+         top: 3em;
+    
+        /*hier komen de kleuren en de stijl*/
+        color: white;
+    }
+    
+    section{
+        display: grid;
+        grid-template-columns: 4fr 2fr;
+        grid-template-rows: 2fr 2fr 2fr 2fr 2fr;
+        gap: 1rem;
+    }
+    
+    article{
+        background-color: bisque;
+        text-align: center;
+    }
+    
+    article:first-of-type{
+        background-color: antiquewhite;
+        grid-column-start: 0;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    
+    article:nth-of-type(2) {
+        grid-column-start: 2;
+        grid-row-start: 1;
+    }
+    
+    article:nth-of-type(3) {
+        grid-column-start: 2;
+        grid-row-start: 2;
+    }
+    
+    article:nth-of-type(4) {
+        grid-column-start: 2;
+        grid-row-start: 3;
+    }
+    
+    article:nth-of-type(5) {
+        grid-column-start: 2;
+        grid-row-start: 4;
+    }
+    
+    footer{
+        background-color: #4E5941;
+        color: white;
+        display: grid;
+        width: 100%;
+    }
+    
+    ul{
+        display: grid;
+        gap: 3em;
+        justify-content: center;
+        grid-template-columns: 2fr 2fr 2fr;
+    }
 }
