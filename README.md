@@ -25,12 +25,19 @@ na het werken aan de website in sprint 2, was het doel van sprint 3 om het toega
 Waar ik ook nog mee bezig ben is de mascotte Harry toevoegen EN hem te animeren. Dat betekent voor mij dat ik meer werk zal moeten verrichten met het focussen op Javascript, want dat was wel de feedback die wij erbij kregen. Sinds de vorige README heb ik wel de navigatie balk wat duidelijker gemaakt op mobiel, maar helaas kan ik nog niet de code kraken op desktop. Ik was ook bezig met de artikelen op de site beter stijlen zodat je meer onderscheiding hebt tussen de verschillende artikelen. Ik heb voor de mobiele versie ook het 'time' element gebruikt zodat wanneer je deze datum inhoud op je mobiel je gelijk naar een agenda applicatie kan gaan.
 ![image](https://github.com/user-attachments/assets/ddc298a9-8217-4b41-a964-737103f13734)
 
+![image](https://github.com/user-attachments/assets/9428961f-6017-444a-88b2-0378608f4f60)
+
+
 
 <!-- Voeg een mooie poster visual toe 📸 -->
 (https://sidopjescherm.github.io/all-human-accessible-website/)
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+Ik heb het 'time' element gebruikt zodat je op mobiele apparaten het in je kalender apps kan toevoegen. https://github.com/Sidopjescherm/all-human-accessible-website/blob/b1425a05eb4e579056b424c2e1e73a9c6ee6aa1d/index.html#L31
+
+Ik heb de navigatie voor de mobiel groter gemaakt zodat het makkelijker te navigeren. Dat kan je hier zien:
+https://github.com/Sidopjescherm/all-human-accessible-website/blob/b1425a05eb4e579056b424c2e1e73a9c6ee6aa1d/style.css#L105
 
 ## Bronnen
 
