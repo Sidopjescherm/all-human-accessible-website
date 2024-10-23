@@ -72,10 +72,6 @@ article{
     transition-duration: 0.3s;
 }
 
-article:hover{
-    transform: scale(1.2);
-    z-index: 1;
-}
 
 article:first-of-type{
     background-color: antiquewhite;
@@ -128,6 +124,12 @@ ul{
          }
     
         background-color: #FF9A41;
+    }
+
+    a{
+        @media (min-width: 0px) and (max-width: 1024px){
+            
+        }
     }
     
 }
@@ -199,6 +201,11 @@ ul{
         background-color: bisque;
         text-align: center;
     }
+
+    article:hover{
+        transform: scale(1.2);
+        z-index: 1;
+    }
     
     article:first-of-type{
         background-color: #FF9A41;
@@ -214,8 +221,8 @@ ul{
             font-size: larger;
             font-weight: bolder;
          }
-    }
-    
+         
+        }
     article:nth-of-type(2) {
         grid-column-start: 2;
         grid-row-start: 1;
