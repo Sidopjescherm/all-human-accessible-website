@@ -103,6 +103,9 @@ ul{
 
 /*dit is voor small en medium*/
 @media (min-width:0px) and (max-width:1024px) {
+    body{
+        width: 100%;
+    }
     article{
         grid-column-start: 2;
     }
@@ -121,16 +124,15 @@ ul{
         padding: 1em;
          a{
             color: white;
+            @media (min-width: 0px) and (max-width: 1024px){
+                font-size: 2em;
+            }
          }
     
         background-color: #FF9A41;
     }
 
-    a{
-        @media (min-width: 0px) and (max-width: 1024px){
-            
-        }
-    }
+
     
 }
 
