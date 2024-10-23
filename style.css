@@ -258,7 +258,7 @@ ul{
     }
     
     ul{
-        display: grid;
+        display: flex;
         gap: 3em;
         justify-content: center;
         grid-template-columns: 2fr 2fr 2fr;
